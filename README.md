@@ -49,7 +49,9 @@ streamlined delivery system.
 The following Business model & Requirements apply to this Proposal:
 
 There are two components of a business model — qualitative and
-quantitative. Let us begin by looking into its ***qualitative*** aspects:
+quantitative. 
+
+Let us begin by looking into its ***qualitative*** aspects:
 
 **Value Proposition :** The fundamental proposition of the company to
 the various stakeholders is simple and may be described as follows:
