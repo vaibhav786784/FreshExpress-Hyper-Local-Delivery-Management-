@@ -381,8 +381,6 @@ the online platform and expanding their business would increase their
 business sales and also helps to connect every store globally improving
 the brand image overall.
 
-<img src="media/image1.png" style="width:4.71875in;height:3.83333in" />
-
 # 
 
 # Active Issues
