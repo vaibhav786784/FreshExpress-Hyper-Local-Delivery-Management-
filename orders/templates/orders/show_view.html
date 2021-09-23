@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block javascript %}
+
+{% endblock %}
+{% block content %}
+<meta http-equiv="refresh" content="10">
+  <div class="container">
+    <h2 class="text-center">Choose your favorite Shop</h2>
+    <div class="row">
+      {% for i,j in result.items %}
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="card" style="margin-bottom: 20px;">
+        <div class="card-block">
+         <figure>
+            <img src="/static/shop.jpeg" alt="Trulli" style="width:100%;height:30%">
+            <figcaption style="text-align: center;">{{i}}</figcaption>
+         </figure>
+         </div>
+
+
+         <div style="margin:auto">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-x  awesome/4.7.0/css/font-awesome.min.css">
+          <style>
+            .checked {
+            color: orange;
+                    }
+          </style>
+          <span class="fa fa-star checked">{{j.0}}</span>
+         </div>
+         <div style="margin:auto">
+         {%if j.2 and j.3%}
+         <h6>Items Available-{{j.2}}{{"/"}}{{j.3}}</h6>
+           {%else%}
+         <h6>Items Available-None</h6>  
+         {%endif%}
+         </div>
+
+         
+         <div style="margin:auto">
+          {%with sid=j.1%}
+          {%with oid=j.4%}
+           <!---- <a href="{% url 'orders:place' sid oid %}" class="btn btn-success">Checkout</a>-->
+            <form action="../redirectupdateorder" method="POST">
+              {% csrf_token %}
+              <input type="hidden" name="oid" value="{{oid}}">
+              <input type="hidden" name="sid" value="{{sid}}">
+              <input type="submit" value="Checkout" class="btn btn-success">
+            </form>  
+          {%endwith%}
+          {%endwith%}
+          </div>
+    
+
+        
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endblock %}
