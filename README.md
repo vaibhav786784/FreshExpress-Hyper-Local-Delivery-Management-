@@ -1,11 +1,4 @@
-![](RackMultipart20210527-4-be7gta_html_44f138ac10556814.gif)
-
-# **FreshExpress**
-
-## **Amazon HackOn submission for team CodingAlphas**
-
-30th MAY 2021
-
+# **FreshExpress(Hyper-Local-Delivery-Management-System)**
 # Introduction & Background
 
 After the immense success of [<u>Flex</u>](https://flex.amazon.in/) &
@@ -303,26 +296,6 @@ customer can really solve the problem.
 
 5.  In case of unavailability of items,orders should be fulfilled via
     flexible delivery
-
-# 
-
-# Project Timelines
-
-## The Project timeline is as follows:
-
-| Request for Proposal Issuance                  | 17/05/2021 |
-|------------------------------------------------|------------|
-| DataBase Design Finalized                      | 18/05/2021 |
-| Cockroach Database Connection Established      | 19/05/2021 |
-| Recommendation Engine Established              | 22/05/2021 |
-| Functionalities added for 1st stable prototype | 24/05/2021 |
-| Minor Bug Fixes & Functionalities Improvement  | 28/05/2021 |
-| Client Project Delivery                        | 30/05/2021 |
-| Client Project Demo                            | 11/06/2021 |
-
-The need-date for project completion is 30th May 2021. Judges may
-propose a date earlier or later, and work has to be ramped up
-accordingly.
 
 # 
 
